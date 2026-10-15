@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility statement · Music Guess</title>
+<meta name="description" content="Music Guess Accessibility statement.">
+<link rel="icon" href="img/icon.png">
+<style>
+:root { color-scheme: dark; --bg: #0a0a17; --card: #16142a; --text: #f5f3f7; --dim: #bdb8cc;
+        --pink: #ff3d7a; --orange: #ff8a3d; --line: #2a2742; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: radial-gradient(1200px 600px at 0% -10%, #3a1230 0%, transparent 60%),
+       radial-gradient(900px 500px at 110% 0%, #241a4a 0%, transparent 55%), var(--bg); color: var(--text);
+       font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; min-height: 100vh; }
+a { color: var(--pink); text-underline-offset: 3px; }
+a:focus-visible { outline: 3px solid var(--pink); outline-offset: 3px; border-radius: 4px; }
+.skip { position: absolute; left: -999px; top: 8px; background: var(--pink); color: #fff; padding: 8px 14px;
+        border-radius: 8px; }
+.skip:focus { left: 16px; }
+header, main, footer { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+header { padding-top: 28px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 900; letter-spacing: .04em; font-size: 19px;
+         color: var(--text); text-decoration: none; text-transform: uppercase; }
+.brand img { width: 36px; height: 36px; border-radius: 9px; }
+nav { margin-left: auto; display: flex; gap: 16px; flex-wrap: wrap; font-size: 15px; }
+nav a { color: var(--dim); text-decoration: none; }
+nav a[aria-current="page"] { color: var(--text); font-weight: 700; }
+h1 { font-size: clamp(30px, 6vw, 44px); line-height: 1.12; margin: 36px 0 6px; letter-spacing: -.01em; }
+h2 { font-size: 21px; margin: 34px 0 8px; background: linear-gradient(90deg, var(--pink), var(--orange));
+     -webkit-background-clip: text; background-clip: text; color: transparent; }
+.meta { color: var(--dim); margin: 0 0 8px; }
+ul { padding-left: 1.2em; margin: 0; }
+li { margin: 8px 0; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 18px 22px; margin: 18px 0; }
+.card h2 { margin-top: 4px; }
+.lead { font-size: 19px; color: var(--dim); }
+footer { color: var(--dim); font-size: 14px; padding-top: 40px; padding-bottom: 48px; }
+@media (prefers-reduced-motion: no-preference) { a { transition: color .15s; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<header>
+  <a class="brand" href="index.html"><img src="img/icon.png" alt="">Music Guess</a>
+  <nav aria-label="Site"><a href="index.html">Support</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="accessibility.html" aria-current="page">Accessibility</a></nav>
+</header>
+<main id="content">
+<h1>Accessibility statement</h1>
+<p class="meta">Updated October 15, 2026.</p>
+<h2>Our goal</h2>
+<ul>
+<li>We want everyone to be able to play Music Guess, including people who are blind, have low vision, or have motor, cognitive or photosensitive conditions.</li>
+<li>We design and test against Apple's accessibility guidelines and the Web Content Accessibility Guidelines (WCAG) 2.2, Level AA, where they apply to a game.</li>
+</ul>
+<h2>What the game supports</h2>
+<ul>
+<li><strong>VoiceOver:</strong> Every button and screen is labeled, and the four answers are read in order.</li>
+<li><strong>More time:</strong> Answer time can be set to 25 seconds, and it starts at 25 if VoiceOver is on when you first open the game.</li>
+<li><strong>Your own pace:</strong> Turn off Auto-advance to move to the next song only when you're ready.</li>
+<li><strong>Pause anywhere:</strong> Pause from the screen, Control Center, the Lock Screen or your headphones.</li>
+<li><strong>Keyboards:</strong> Press 1 to 4 to answer, Return for the next song and Escape to pause.</li>
+<li><strong>Larger text:</strong> Text follows your text size setting, and long pages like this one grow to the largest sizes.</li>
+<li><strong>Reduce Motion:</strong> The spinning record, beat bumps and moving backgrounds stop.</li>
+<li><strong>Not by color alone:</strong> Right and wrong answers also show a check mark or a cross.</li>
+<li><strong>Contrast:</strong> Text meets the WCAG contrast ratio of at least 4.5 to 1.</li>
+<li><strong>Haptics:</strong> Answers can be felt, and on iOS 27 the beat of each song too. Haptics can be turned off.</li>
+<li><strong>Touch targets:</strong> Buttons are at least 44 by 44 points.</li>
+</ul>
+<h2>Known limits</h2>
+<ul>
+<li>The game is about recognizing music by ear, so it isn't playable without hearing. Beat haptics give a feel for the rhythm, but not enough to name a song.</li>
+<li>Voice Control can open every menu, but its speech delay costs time in timed rounds. Answer time of 25 seconds helps.</li>
+<li>The game uses a dark interface only.</li>
+</ul>
+<h2>Feedback</h2>
+<ul>
+<li>If something gets in your way, email <a href="mailto:berinshteyn@gmail.com">berinshteyn@gmail.com</a>, and we will reply within 5 business days.</li>
+<li>Please tell us your device, iOS version and the accessibility features you use.</li>
+</ul>
+</main>
+<footer>
+  <p>© 2026 Michael Berinshteyn · Erie, Pennsylvania · <a href="mailto:berinshteyn@gmail.com">berinshteyn@gmail.com</a></p>
+  <p>Apple and Apple Music are trademarks of Apple Inc., registered in the U.S. and other countries.
+  Music Guess is not made, sponsored or endorsed by Apple.</p>
+</footer>
+</body>
+</html>
